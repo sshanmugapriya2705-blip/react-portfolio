@@ -1,0 +1,246 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0D9488;
+  color: #FFFFFF;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0%;
+  padding: 0%;
+}
+nav li{
+  cursor: pointer;
+}
+/* Home Section*/
+.home{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 50px;
+}
+.home-content{
+  max-width: 600px;
+}
+.welcome{
+  color:#0F766E;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.home h1{
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.home h1 span{
+  color: #0D9488;
+}
+.home h2{
+  color: #475569;
+  font-size: 24px;
+}
+.intro{
+  color: #334155;
+  line-height: 1.8;
+  font-size: 16px;
+}
+.resume-button{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0D9488;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+
+}
+.resume-button:hover{
+  background-color: #0F766E;
+}
+.home-image img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #0D9488;
+}
+/*Responsive design*/
+@media(max-width:768px){
+  nav{
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+  nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .home{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+
+  }
+  .home h1{
+    font-size: 32px;
+  }
+  .home h2{
+    font-size: 20px;
+  
+  }
+  .home-image img{
+    width: 180px;
+    height: 180px;
+  }
+}
+nav a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #99F6E4;
+}
+.about{
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  text-align: center;
+}
+.about h1{
+  color:#0D9488;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.about p{
+  color: #334155;
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+/*skill setion*/
+.skills{
+  padding: 60ox 20px;
+  text-align: center;
+}
+.skills h1{
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+.skills-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.skill-box{
+  width: 280px;
+  padding: 26px;
+  border-radius: 12px;
+  background-color: #F0FDFA;
+   box-shadow: 0 4px 10px rgba(13,148,136,0.12);
+  text-align: left;
+}
+.skill-box h2{
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.skill-box p{
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+/*project section*/
+.projects{
+  padding: 60px 20px;
+  text-align: center;
+}
+.projects h1{
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+.projects-container{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0% auto;
+}
+.project-card{
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #F0FDFA;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(13,148,136,0.12);
+  transition: transform 0.3s ease;
+}
+.project-card:hover{
+  transform:translateY(-5px);
+}
+.project-card h2{
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.project-card p{
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+
+}
+.project-card a{
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #0D9488;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.project-card a:hover{
+  background-color: #0F766E;
+}
+/*contact*/
+.contact{
+  padding: 60px 20px;
+  text-align: center;
+
+}
+.contact h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+
+}
+.contact p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.contact-info{
+  max-width: 500px;
+  margin: 0% auto;
+  padding: 25px;
+  background-color: #F0FDFA;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(13,148,136,0.12);
+}
+.contact-info p{
+  margin:18px 0 ;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.contact-info a{
+  color: #0F766E;
+  text-decoration: none;
+}
+.contact-info a:hover{
+  text-decoration: underline;
+}
