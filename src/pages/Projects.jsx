@@ -2,23 +2,18 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
     const projects = [
-        {
-            title: "Personal Portfolio Website",
-            description:
-                "A personal portfolio website built using React to showcase my projects, skills, and learning journey.",
-            link: "#",
-        },
+        
         {
             title: "Car Parking Booking Website",
             description:
                 "A website designed to help users explore parking options and book parking spaces conveniently.",
-            link: "#",
+            link: "https://github.com/sshanmugapriya2705-blip/ParkEase",
         },
         {
             title: "SkillBridge",
             description:
                 "A project designed to connect students with real-world community projects based on their skill levels and interests.",
-            link: "#",
+            link: "https://github.com/sshanmugapriya2705-blip/SkillBridge",
         },
     ];
 
